@@ -11,7 +11,7 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://agcreative.us';
+window.location.href = 'http://www.agcreative.us';
 </script>";
 } else {
 echo 'Falló el envio';
